@@ -18,7 +18,8 @@ html,body{
     height: 100%;
 }
 body{
-    background-color: SlateGray;
+    background-color: #537895;
+    /*background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);*/
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -297,29 +298,30 @@ a{
 }
 
 .x-fx .x-box h2.x-1{
-    background-color: Chocolate;
+    /*background-color: Chocolate;*/
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 }
 .x-fx .x-box h2.x-2{
-    background-color: MediumAquaMarine;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 .x-fx .x-box h2.x-3{
-    background-color: LimeGreen;
+    background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
 }
 .x-fx .x-box h2.x-4{
-    background-color: SteelBlue;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 }
 .x-fx .x-box h2.x-5{
-    background-color: Goldenrod;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 .x-fx .x-box h2.x-6{
-    background-color: Purple;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
 }
 .x-fx .x-box h2.x-7{
-    background-color: SlateBlue;
+    background-image: linear-gradient(to left, #c471f5 0%, #fa71cd 100%);
 }
 .x-fx .x-box h2.x-8{
-    background-color: SkyBlue;
+    background-image: linear-gradient(to right, #0ba360 0%, #3cba92 100%);
 }
 .x-fx .x-box h2.x-9{
-    background-color: Tomato;
+    background-image: linear-gradient(to left, #0250c5 0%, #d43f8d 100%);
 }
