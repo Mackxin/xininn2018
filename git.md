@@ -9,12 +9,16 @@ ls -l 列出文件列表
 ls 列出文件和目录
 cd .. 返回上一层
 cd 文件名 进入这个文件名
-rm -rf 文件名 删除文件(慎用)
-rm -rf * 删除所有文件(慎用)
+rm -rf 文件名 删除文件(慎用，不要删错了)
+rm -rf * 删除所有文件(慎用，不要删错了)
+ctrl+L 命令界面清除
+.gitconfig
 ```
 
 ## 配置Git的整理
 ```
+git config user.name "这里写你的用户名"    配置你的用户名(只在当前文件夹使用)
+git config user.email "这里写你的邮箱"        配置你的邮箱(只在当前文件夹使用)
 git config --global user.name "这里写你的用户名"    配置你的用户名
 git config --global user.email "这里写你的邮箱"        配置你的邮箱
 ssh -T git@github.com                   测试SSH key是否设置成功
