@@ -1,9 +1,23 @@
 ﻿# 馨客栈
 
+关注分享，关注导航，关注馨客栈
+
 ## 馨客栈导航
 
-```
-2018-04-19,馨客栈的源码上传到github网站上，后期慢慢更新
-2018-04-27,更新MD文件增加hexo的功能扩展，还更新一些新的标签
-2018-05-10，新增小蝌蚪聊天室，还有闲聊吧两个功能
-```
+http://mackxin.com/nav.html
+
+## 馨客栈前端导航
+
+http://mackxin.com/webnav.html
+
+## 馨客栈每日分享
+
+http://mackxin.com/fx.html
+
+## 馨客栈微博
+
+http://weibo.com/xininn
+
+## 馨客栈源码
+
+https://github.com/Mackxin/mackxin
