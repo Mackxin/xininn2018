@@ -12,7 +12,7 @@ cd 文件名 进入这个文件名
 rm -rf 文件名 删除文件(慎用，不要删错了)
 rm -rf * 删除所有文件(慎用，不要删错了)
 ctrl+L 命令界面清除
-.gitconfig
+.git/config
 .gitignore 忽略不提交文件的配置文件
 git rm --cached 文件名 只删除版本库的文件不删除本地开发的文件
 ```
