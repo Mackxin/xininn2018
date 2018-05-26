@@ -15,6 +15,14 @@ ctrl+L 命令界面清除
 .git/config
 .gitignore 忽略不提交文件的配置文件
 git rm --cached 文件名 只删除版本库的文件不删除本地开发的文件
+vim 文件名 用vim打开这个文件
+cat 文件名 查看文件
+git commit --amend 修改提交信息
+git reset HEAD 文件名
+git checkout -- 文件名
+git config --global alias.a add 给命令取别名
+
+
 ```
 
 ## 配置Git的整理
@@ -44,6 +52,8 @@ git config --list               获取git的配置信息
 git log                         查看提交的历史
 git log --oneline               在一行显示提交的历史
 git log -p 指定的文件名           查看指定文件的提交历史
+git log --name -only
+git log --name -status
 git blame 指定的文件名            以列表的方式查看指定文件的提交历史
 git add 文件名                 提交指定文件到暂存区
 git add .                       提交全部修改的文件到暂存区
@@ -54,6 +64,7 @@ git commit -m "这里写你这次提交的描述"     提交所有更新过的�
 ```
 git branch                          显示所有的分支
 git checkout 分支名或者标签名       切换到指定的分支或标签
+git checkout -b 分支名 创建一个分支并切换到此分支
 git branch 新的分支名                基于当前的分支创建新的分支
 git branch -d 分支名               删除本地的分支
 git tag                             列出本地所有标签
