@@ -30,6 +30,21 @@ git archive master --prefix='wei/' --forma=zip > wei.zip 代码打包（wei是�
 git rebase master
 ```
 
+这里说一下，执行完取别名的命令后我们cd回到主目录然后可以打开.gitconfig文件来自己编辑
+```
+git config --global alias.a add 给命令取别名
+执行完上面的命令后，我们cd一下回到主目录
+然后找到.gitconfig可以看到这个文件里面多了两行
+[alias]
+	a = add
+看到这个说明我们成功给add添加了别名
+我们也可以直接自己添加比如
+[alias]
+	a = add
+	c = commit -m
+```
+
+
 ## 配置Git的整理
 ```
 git config user.name "这里写你的用户名" 配置你的用户名(只在当前文件夹使用)
