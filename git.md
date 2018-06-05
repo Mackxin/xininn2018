@@ -18,7 +18,7 @@ git rm --cached 文件名 只删除版本库的文件不删除本地开发的文
 vim 文件名 用vim打开这个文件
 cat 文件名 查看文件
 git commit --amend 修改提交信息
-git reset HEAD 文件名
+git reset HEAD 文件名 撤销回git add的内容(add添加后撤回没有添加)
 git checkout -- 文件名
 git config --global alias.a add 给命令取别名
 git stash 把当前工作的文件暂存起来（就是还不想提交commit时来操作的）
@@ -106,9 +106,12 @@ git push 远程地址 分支名 将本地版本发布到远程端（上传本地
 git push -u origin master 本地提交代码到远程仓库
 ```
 
-## 撤销
+## 恢复撤销
 ```
-
+git reset --hard commit_id  恢复到此ID的版本
+git reflog 查看回滚的版本
+git reset --hard HEAD^ 回退最近一次的版本
+$ git reset --hard HEAD~3 回退到最近的此数字的版本
 ```
 
 ## 文件操作
