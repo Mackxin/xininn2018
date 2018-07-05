@@ -40,18 +40,19 @@ header .x-logo img{
     display: block;
     width: 150px;
     height: 50px;
-    color: #ff1d55;
     line-height: 50px;
+    background-color: #ff1d55;
+    color: #fff;
     font-size: 16px;
     text-align: center;
     transition: 1s;
-    font-weight: 600;
+    /* font-weight: 600;  */
 }
 .x-nav div a:hover{
-    background-color: #ff1d55;
-    color: #fff;
+    transform: scale(1.1);
+    background-color: #4405f7;
     text-align: center;
-    font-size: 16px;
+    font-size: 16px; 
 }
 .x-h1{
     width: 100%;
@@ -148,7 +149,28 @@ header .x-logo img{
         width: 196px;
     }
 }
+@media (max-width:617px){
+    .x-nav{
+        width: 580px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .x-nav div a{
+        width: 290px;
+    }
+    .x-fixed{
+        background-color: #ff1d55!important;
+    }
+}
 @media (max-width:604px){
+    .x-nav{
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .x-nav div a{
+        width: 250px;
+    }
     .x-box .x-boxs{
         width:483px;
 }
@@ -156,23 +178,49 @@ header .x-logo img{
         width: 161px;
     }
 }
-@media (max-width:499px){
+/* @media (max-width:499px){
+    .x-nav{
+        width: 398px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .x-nav div a{
+        width: 199px;
+    }
     .x-box .x-boxs{
         width:399px;
 }
     .x-box .x-boxs .x-lis li a{
         width: 132px;
     }
-}
+} */
 @media (max-width:414px){    //iphone6 plus
+    .x-nav{
+        width: 400px;
+        height:100px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .x-nav div a{
+        width: 200px;
+    }
     .x-box .x-boxs{
         width:100%;
-}
+    }
     .x-box .x-boxs .x-lis li a{
         width: 133px;
     }
 }
 @media (max-width:375px){    //iphone6
+    .x-nav{
+        width: 370px;
+        height:100px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .x-nav div a{
+        width: 180px;
+    }
     .x-box .x-boxs{
         width:100%;
 }
@@ -181,6 +229,15 @@ header .x-logo img{
     }
 }
 @media (max-width:360px){
+    .x-nav{
+        width: 340px;
+        height:100px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .x-nav div a{
+        width: 170px;
+    }
     .x-box .x-boxs{
         width:100%;
 }
@@ -189,6 +246,15 @@ header .x-logo img{
     }
 }
 @media (max-width:320px){    //iphone5
+    .x-nav{
+        width: 300px;
+        height:100px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .x-nav div a{
+        width: 150px;
+    }
     .x-box .x-boxs{
         width:100%;
 }
@@ -230,7 +296,7 @@ footer p{
     position: fixed;
     top: 0px;
     background-color: #ff1d55;
-    opacity: 0.5;
+    transition: 1s;
 }
 #x-nav div .x-a{
     color: #fff;
