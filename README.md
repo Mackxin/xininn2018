@@ -21,3 +21,7 @@ http://weibo.com/xininn
 ## 馨客栈源码
 
 https://github.com/Mackxin/mackxin
+
+## 仿小米官网首页地址
+
+https://mackxin.github.io/mi.com
