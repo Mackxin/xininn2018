@@ -13,3 +13,7 @@
 > 也是Windows快速预览工具,相比较上面的seer，你们可以自己体验斟酌哈   
 [下载地址](https://pooi.moe/QuickLook/)
 
+### Traffic Monitor   
+> 一款用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能
+[下载地址](https://github.com/zhongyang219/TrafficMonitor/releases)   
+
