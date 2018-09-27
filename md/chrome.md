@@ -103,4 +103,14 @@
   [下载地址](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)   
   > 破冰重建，你懂的
 
+- Midnight Lizard   
+  [下载地址](https://chrome.google.com/webstore/detail/midnight-lizard/pbnndmlekkboofhnbonilimejonapojg)   
+  > 让所有网站支持夜间模式的插件，你还可以给每个网站设定不一样的配色
+
+- IGES - Instagram Enhancement Suite   
+  [下载地址](https://chrome.google.com/webstore/detail/iges-instagram-enhancemen/lnigkkkfibaajfgcbddjmfjpjpmhhmig)   
+  > PC 端发 Instagram，查看原图，批量下载，还有很多体验优化点
+
+
+
 

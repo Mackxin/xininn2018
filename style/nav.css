@@ -151,12 +151,7 @@ header .x-logo img{
 }
 @media (max-width:617px){
     .x-nav{
-        width: 580px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .x-nav div a{
-        width: 290px;
+        display: none;
     }
     .x-fixed{
         background-color: #ff1d55!important;
@@ -164,12 +159,7 @@ header .x-logo img{
 }
 @media (max-width:604px){
     .x-nav{
-        width: 500px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .x-nav div a{
-        width: 250px;
+        display: none;
     }
     .x-box .x-boxs{
         width:483px;
@@ -196,13 +186,7 @@ header .x-logo img{
 } */
 @media (max-width:414px){    //iphone6 plus
     .x-nav{
-        width: 400px;
-        height:100px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .x-nav div a{
-        width: 200px;
+        display: none;
     }
     .x-box .x-boxs{
         width:100%;
@@ -213,13 +197,7 @@ header .x-logo img{
 }
 @media (max-width:375px){    //iphone6
     .x-nav{
-        width: 370px;
-        height:100px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .x-nav div a{
-        width: 180px;
+        display: none;
     }
     .x-box .x-boxs{
         width:100%;
@@ -230,13 +208,7 @@ header .x-logo img{
 }
 @media (max-width:360px){
     .x-nav{
-        width: 340px;
-        height:100px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-    }
-    .x-nav div a{
-        width: 170px;
+        display: none;
     }
     .x-box .x-boxs{
         width:100%;
@@ -247,17 +219,11 @@ header .x-logo img{
 }
 @media (max-width:320px){    //iphone5
     .x-nav{
-        width: 300px;
-        height:100px;
-        margin: 0 auto;
-        margin-bottom: 10px;
-    }
-    .x-nav div a{
-        width: 150px;
+        display: none;
     }
     .x-box .x-boxs{
         width:100%;
-}
+    }
     .x-box .x-boxs .x-lis li a{
         width: 160px;
     }
