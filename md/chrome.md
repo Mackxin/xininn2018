@@ -111,6 +111,9 @@
   [下载地址](https://chrome.google.com/webstore/detail/iges-instagram-enhancemen/lnigkkkfibaajfgcbddjmfjpjpmhhmig)   
   > PC 端发 Instagram，查看原图，批量下载，还有很多体验优化点
 
+- Web Server for Chrome   
+  [下载地址](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)   
+  > 浏览器端开启web静态的服务器，不支持动态的哈
 
 
 

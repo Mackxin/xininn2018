@@ -20,7 +20,7 @@
 
 ## 捷径规则
 
-[给 iPhone 添加广告风格相机水印](https://www.icloud.com/shortcuts/8d985f145a644056b7df5fa627c4842e)   
+[给iPhone添加广告风格相机水印](https://www.icloud.com/shortcuts/8d985f145a644056b7df5fa627c4842e)   
 [听音识曲](https://www.icloud.com/shortcuts/87fb626a800a409d96b7fa9b932869a4)   
 [保存微博视频](https://www.icloud.com/shortcuts/5efd7e1d1704453993be62af01e813a8)   
 [网易云音乐下载](https://www.icloud.com/shortcuts/fe5c7af3546e4f2c897eb3b5a9e26fd1)   
