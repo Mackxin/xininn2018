@@ -112,11 +112,15 @@ header .x-logo img{
     border: 1px solid #F6F5F4;
     box-sizing: border-box;
 }
-// @media (max-width:375px){
+.x-box .x-boxs .x-lis li a.active{
+    background : #ff1d55;
+    color : #fff;
+}
+/* // @media (max-width:375px){
 //     .x-box .x-boxs .x-lis li a{
 //         width: 122px;
 //     }
-// }
+// } */
 @media (max-width:1165px){
     .x-box .x-boxs{
         width:918;
