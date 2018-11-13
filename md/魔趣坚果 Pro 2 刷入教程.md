@@ -11,9 +11,9 @@
 ## 准备工具
 
 1. **高通 EDL 线**（也称为 9008 线、救砖线、工程线），自行上淘宝购买（10几块的就够了，反正就用一次。淘宝上有些卖家会写着「小米工程线」，其实是同一个东西，通用的）。
-2. **TWRP QPST 工具包**，下载地址：[https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA](https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA#9jm3) 419 (密码: 9jm3)
-3. **底包**，下载地址：[https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw](https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw#ddr3) 211 (密码: ddr3)
-4. **魔趣刷机包**：[http://rom.mk/?device=osborn 1。2K](http://rom.mk/?device=osborn)
+2. **TWRP QPST 工具包**，下载地址：[https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA](https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA#9jm3)(密码: 9jm3)
+3. **底包**，下载地址：[https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw](https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw#ddr3)(密码: ddr3)
+4. **魔趣刷机包**：[http://rom.mk/?device=osborn](http://rom.mk/?device=osborn)
 
 考虑到大家的动手能力，不建议自己 DIY 刷机线。能买就买吧。
 
@@ -61,26 +61,22 @@
 
 ## 三、如何刷回 Smartisan OS 官方系统
 
-1. 下载官方 4.2.1 版并放到内置存储根目录：[http://dl2.smartisan.cn/ota/OSBORN/osborn/4.2.1/20180426/4.2.1-2018042519-user-ob-208e77d2cd.zip 2。2K](http://dl2.smartisan.cn/ota/OSBORN/osborn/4.2.1/20180426/4.2.1-2018042519-user-ob-208e77d2cd.zip)
+1. 下载官方 4.2.1 版并放到内置存储根目录：[http://dl2.smartisan.cn/ota/OSBORN/osborn/4.2.1/20180426/4.2.1-2018042519-user-ob-208e77d2cd.zip](http://dl2.smartisan.cn/ota/OSBORN/osborn/4.2.1/20180426/4.2.1-2018042519-user-ob-208e77d2cd.zip)
 2. 长按**音量减**和**电源**键。直到你看到白色锤子的时候松开电源键（继续按住音量减键）；直到你看到 TWRP 的时候才松开所有按键
 3. 进 Wipe（清除），把下面那个条条拖住向右划一下
 4. 返回上一层，进 Install（安装），找到你之前下载的官方卡刷包
 5. 刷完重启，完成
-
-
-
-
 
 ## MK81.0 (Oreo)
 
 #### 底包
 
 对应魔趣版本：MK81.0 自 20180909 起
-AFH：[RADIO-osborn-20180904222847.zip 358](https://androidfilehost.com/?fid=1322778262904000089)
+AFH：[RADIO-osborn-20180904222847.zip](https://androidfilehost.com/?fid=1322778262904000089)
 百度盘：[点此下载](https://pan.baidu.com/s/1GbGec1iFmDbBV4Lu7rC8IQ#kg7e) (密码: kg7e)
 
 对应魔趣版本：MK81.0 自 20180824 起
-AFH： [RADIO-osborn-20180819093819.zip 181](https://androidfilehost.com/?fid=1322778262903988568)
+AFH： [RADIO-osborn-20180819093819.zip](https://androidfilehost.com/?fid=1322778262903988568)
 百度盘：[点此下载](https://pan.baidu.com/s/1Jl6S0VdDf2rt2ugyH8vnXQ#tqu9) (密码: tqu9)
 
 #### TWRP
@@ -112,9 +108,7 @@ AFH： [RADIO-osborn-20180819093819.zip 181](https://androidfilehost.com/?fid=13
 
 **刷入8.1需要使用8.1的TWRP（3.2.x版本）**
 
-
-
-
+## 降级
 
 因为高通给 9.0 的内核更新了 F2FS，不向后兼容，降级比较麻烦。 
 
@@ -167,7 +161,7 @@ AFH： [RADIO-osborn-20180819093819.zip 181](https://androidfilehost.com/?fid=13
 
 链接:http://t.cn/Rkj4WBZ 提取码:j9f3
 
-
+进9008的时候win10系统要先进入工程模式才可以，可能有些人不知道这个问题，然后刷twrp就一直失败
 
 MK90.0-osborn-201810310226-UNOFFICIAL.zip 
 
@@ -196,7 +190,56 @@ TWRP、底包和现行 MK81.0 一样；
 
 
 
-7.1每夜版升8.1必须双清；
+7.1每夜版升8.1必须双清（data和cache）；
 8.1 0628之前的测试版必须双清；
 8.1 0628测试版升每夜版不需要双清
+
+- 双清（data和cache）
+- 四清（data、cache、dalvik cache（虚拟内存）、system分区。这个会把原来的系统删掉，如果你刷机失败是没办法进入原来的系统，可以通过adb导包来解决
+- 五请（即全清）在前面基础上再加上内置存储。这个建议不勾选，顶多四清差不多了
+
+## 常见词汇
+
+**data**：程序数据（可以理解为删除安装的app）
+
+**cache**：系统缓存（只是用在刷完系统出现问题，恢复还原用）
+
+**dalvik cache**：安卓系统启动时，需要建立一个所有程序的信任分支，以优化缓存文件，以加快启动速度。（清除了这个，初次启动很慢，以后启动了就快了）
+
+**system**：系统分区，可以理解为原来的系统。（清除了，如果突然不想刷机或者刷机失败是没法进入原来的系统了，已经删了）
+
+**内置存储**：挂载和大容量存储，即sdcard。（清除了是需要重新导包）
+
+**外置u盘**：你利用otg线外接了一个u盘，就会出现这个选项，基本不会出现。不要勾选，除非你已经把u盘安装包导入系统了。不过如果你已经将安装包导入系统，就可以拔掉u盘，也不会出现这个选项。
+
+**内核**：替换了系统底层文件，一般会使系统更加省电。
+
+**Xposed**：是一个系统框架，安装之后可以修改下拉框以及图标很多内容，更个性化操作。
+
+**SuperSU**：需要root才可以安装，一般你root权限之后会自动安装这个程序。这个操作可以允许你的一些违规操作，比如刷机，还有黑狱等。
+
+**黑狱**：应用市场已经有ice冰箱、绿色守护这些后台控制软件，但我还是偏向用黑狱这个软件来控制后台，界面简洁。有些系统这个软件提示需要安装xposed后才可以使用。
+
+**Xda**：是一个比较有名的国外rom论坛，很多适配的rom和资讯。基本经常刷机的机友都要去了解一下这个哈。
+
+**ota（over the air）升级**：空中下载技术。 一般是系统自动推送个或者说是检查更新时候点击下载，自动下载rom安装包，自动升级。
+
+就比较方便的升级方式，受众面比较广。很多人觉得这样不够纯净，刷机才可以更好地体验系统。其实不是的，这种方式是比较纯净的安装，不过有个点，就是之前系统的照片以及app和缓存之类都会保留，是升级之后发觉没有快很多的原因。排除这种情况，这种方式的升级是不错的选择，也节省了很多时间。
+
+**root**：root用户是系统中唯一的[超级管理员](https://baike.baidu.com/item/%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%91%98)，它具有等同于[操作系统](https://baike.baidu.com/item/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/192)的权限。一些需要root权限的应用，譬如广告阻挡，是需要root权限的。只需要将root包即super的一个解压包放到手机根目录，重启安装即可完成。在使用xposed框架与LBE软件时一般会要求先root手机，也就是获取超级管理员权限的意思。
+
+**Bootloader：**从字面上来看就是启动加载的意思。用过电脑的都知道，windows开机时会首先加载bios，然后是系统内核，最后启动完毕。那么bootloader就相当于手机的bios，它在手机启动的时候根据基带初始化硬件，然后引导系统内核，直到系统启动。因此可以看出，bootloader很重要，如果bootloader不能正常加载，手机就是砖头一个，无法正常启动和使用。这也就是为什
+bootloader被锁的手机必须要破解才能刷第三方rom。如果不破解bootloader，就无法初始化手机硬件，手机也就无法使用。**所以**：除了刷第三方的ROM，否者不必解锁bootloader（当然能看到这篇文章的基本都是刷第三方或者氧的）
+
+**线刷fastboot与卡刷recovery：**fastboot是快速启动的意思，在[安卓手机](https://baike.baidu.com/item/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA)中fastboot是一种比recovery更底层的[刷机](https://baike.baidu.com/item/%E5%88%B7%E6%9C%BA)模式。（安卓俗称指引导模式）fastboot是一种线刷，就是使用[USB](https://baike.baidu.com/item/USB%E6%95%B0%E6%8D%AE%E7%BA%BF)[数据线](https://baike.baidu.com/item/USB%E6%95%B0%E6%8D%AE%E7%BA%BF)连接手机的一种刷机模式。相对于某些系统（如小米）卡刷来说，线刷更可靠，安全。recovery是一种卡刷，就是将刷机包放在sd卡上，然后在recovery中刷机的模式。
+
+## Wipe data和Wipe cache partition
+
+Wipe data：即恢复出厂设置，将/data下所有的用户数据（包括安装的软件、Dalvik cache、设置、软件的数据等）清空。在较老的设备中是直接格式化/data分区的，内置储存的新设备是保留虚拟SD卡的文件夹（/data/media下），删除其余所有文件及文件夹。
+
+Wipe cache partition：清空/cache分区。/cache分区内多储存一些临时文件，比如Play中下载的apk、recovery的log等。一些设备的ota文件也是储存在这里的。
+
+其实如果不换rom，仅仅是同款rom的小更新的话，不双清也是可以的。
+
+WIPE DATA和WIPE CACHE，双WIPE是清除数据和缓存，wipe cache就是删除用户数据，安装的软件都有保留。wipe data就彻底恢复出厂设置了
 
