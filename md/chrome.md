@@ -34,6 +34,10 @@
   [官网地址](https://tampermonkey.net/)   
   > 游猴（也可以说是暴力猴）一个强大到你无法想象的插件
 
+- 暴力猴     
+  [下载地址](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)   
+  > 相比 Tampermonkey 更为简洁，脚本管理更加方便
+
 - Adblock Plus
   [下载地址](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb)   
   > 全球最受欢迎的广告拦截软件之一
@@ -115,5 +119,27 @@
   [下载地址](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)   
   > 浏览器端开启web静态的服务器，不支持动态的哈
 
+- EpubPress - Read the web offline      
+  [下载地址](https://chrome.google.com/webstore/detail/epubpress-read-the-web-of/pnhdnpnnffpijjbnhnipkehhibchdeok)   
+  > 把打开的网页合成一个文档直接推送给移动设备进行阅读
 
+- s3Google Translator        
+  [下载地址](https://chrome.google.com/webstore/detail/s3translator/debnnjfbneojbmioajinefnflopdohjk)   
+  > 最强翻译拓展，无需要科学上网也可以使用谷歌翻译
+
+- Enable Right Click and Copy         
+  [下载地址](https://chrome.google.com/webstore/detail/enable-right-click-and-co/jpkgmchaodjmmffejklfgfbebdklkjli/)   
+  > 解除网页右键限制。包括选择，复制，右键菜单等，支持白名单
+
+- Video Speed Controller            
+  [下载地址](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)   
+  > 视频倍数播放 - ZX为后退前进，SD减慢加快，R恢复默认
+
+- Maximize Video            
+  [下载地址](https://chrome.google.com/webstore/detail/maximize-video/bfpkgjlnboeecjmnbhbknmemmckmpomb)   
+  > 视频网页全屏 - 将视频放大填充到网页全屏
+
+- Dark Mode            
+  [下载地址](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj)   
+  >  夜间模式 - 一款优秀的夜间模式拓展，它提供了较完美的自适应的夜间模式
 
