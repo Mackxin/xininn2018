@@ -11,8 +11,8 @@
 ## 准备工具
 
 1. **高通 EDL 线**（也称为 9008 线、救砖线、工程线），自行上淘宝购买（10几块的就够了，反正就用一次。淘宝上有些卖家会写着「小米工程线」，其实是同一个东西，通用的）。
-2. **TWRP QPST 工具包**，下载地址：[https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA](https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA#9jm3)(密码: 9jm3)
-3. **底包**，下载地址：[https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw](https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw#ddr3)(密码: ddr3)
+2. **TWRP QPST 工具包**，下载地址：[https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA](https://pan.baidu.com/s/1evUlfOTzT46i_Q02_A5OJA)(密码: 9jm3)
+3. **底包**，下载地址：[https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw](https://pan.baidu.com/s/1IuopqXHXQU41z2GqluRrsw)(密码: ddr3)
 4. **魔趣刷机包**：[http://rom.mk/?device=osborn](http://rom.mk/?device=osborn)
 
 考虑到大家的动手能力，不建议自己 DIY 刷机线。能买就买吧。
@@ -73,15 +73,15 @@
 
 对应魔趣版本：MK81.0 自 20180909 起
 AFH：[RADIO-osborn-20180904222847.zip](https://androidfilehost.com/?fid=1322778262904000089)
-百度盘：[点此下载](https://pan.baidu.com/s/1GbGec1iFmDbBV4Lu7rC8IQ#kg7e) (密码: kg7e)
+百度盘：[点此下载](https://pan.baidu.com/s/1GbGec1iFmDbBV4Lu7rC8IQ) (密码: kg7e)
 
 对应魔趣版本：MK81.0 自 20180824 起
 AFH： [RADIO-osborn-20180819093819.zip](https://androidfilehost.com/?fid=1322778262903988568)
-百度盘：[点此下载](https://pan.baidu.com/s/1Jl6S0VdDf2rt2ugyH8vnXQ#tqu9) (密码: tqu9)
+百度盘：[点此下载](https://pan.baidu.com/s/1Jl6S0VdDf2rt2ugyH8vnXQ) (密码: tqu9)
 
 #### TWRP
 
-百度盘：[点此下载](https://pan.baidu.com/s/1Om0i9RKYl5i-xaTH2io6iQ#f2m7)(提取码: f2m7)
+百度盘：[点此下载](https://pan.baidu.com/s/1Om0i9RKYl5i-xaTH2io6iQ)(提取码: f2m7)
 (MK71.2 无法使用 MK81.0 的 TWRP 进行 OTA 增量更新，请注意区分)
 
 ------

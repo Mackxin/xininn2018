@@ -143,3 +143,22 @@
   [下载地址](https://chrome.google.com/webstore/detail/dark-mode/dmghijelimhndkbmpgbldicpogfkceaj)   
   >  夜间模式 - 一款优秀的夜间模式拓展，它提供了较完美的自适应的夜间模式
 
+- AHA Music - Music Identifier            
+  [下载地址](https://chrome.google.com/webstore/detail/aha-music-music-identifie/dpacanjfikmhoddligfbehkpomnbgblf)   
+  >  可以自动解析当前页面上的所有音乐的谷歌插件
+
+- Chrome清理大师：一键清理浏览器垃圾，让你的Chrome更快            
+  [下载地址](https://chrome.google.com/webstore/detail/clean-master-the-best-chr/eagiakjmjnblliacokhcalebgnhellfi)   
+  >  一键清理您的浏览器缓存和垃圾，保护您的隐私，并使您的浏览器更快，更高效
+
+- Chat Anywhere            
+  [下载地址](https://chrome.google.com/webstore/detail/chat-anywhere/bldcellajihanglphncgjmceklbibjkk)   
+  >  一个可以让你与正在访问同一网页的任何人聊天的插件  
+
+- 破解右键锁            
+  [下载地址](https://chrome.google.com/webstore/detail/enable-right-click/gpeddepmnbmkjfnhifmggnjdggibjjkf)   
+  >  看名字就知道是怎么用的了哈
+
+- SPS - 搜我听歌 Search to Play the Song               
+  [下载地址](https://chrome.google.com/webstore/detail/search-to-play-the-song/anfmgjkkbagjfdejhbjdiapgkbhpigpm)   
+  >  Chrome上的极简听歌扩展，搜歌，搜电台
